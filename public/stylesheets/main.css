@@ -17,7 +17,7 @@
 }
 
 body {
-  background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
+  background: linear-gradient(to left,var(--color-background-light), var(--color-background-dark));
 }
 
 .container {
@@ -36,5 +36,5 @@ body {
 }
 
 .error-message {
-  color: hsl(var(--color-danger-hue), 100%, 50%);
+  color: hsl(var(--color-danger-hue), 100%, 80%);
 }
